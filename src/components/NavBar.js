@@ -1,8 +1,11 @@
-import React from 'react'
+import {useState}from 'react'
 import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 export default function NavBar() {
+    const[click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+
     return (
         <nav className="navBar">
             <div className="nav-container">
@@ -26,6 +29,9 @@ export default function NavBar() {
                         </NavLink>
                     </li>
                 </ul>
+                <div className="nav-icon" onClick={handleClick}>
+                    <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+                </div>
             </div>
         </nav>
     )
