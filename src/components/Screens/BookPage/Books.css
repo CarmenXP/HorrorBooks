@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(42, 40, 40);
+    justify-content: space-around;
+}
+.cardBook{
+    border: 1px solid rgb(14, 78, 14);
+    width: 240px;
+    height: 435px;
+    margin: 15px;
+    background-color: rgb(29, 28, 28);
+
+}
+img{
+    width: 100%;
+}
+.seeMore{
+    border-radius: 8px;
+    background-color: rgb(30, 241, 30);
+    color:rgb(238, 238, 226);
+    padding: 2px;
+    border: none;
+    margin-top: 2px;
+}
+.seeMore:hover{
+    cursor: pointer;
+}
+.resume{
+    font: size 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
