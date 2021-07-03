@@ -20,12 +20,19 @@
     max-height: 600px;
     overflow-y: auto;
     background-color: #fff;
+    text-align: center;
   }
   
   .modal-close {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    background-color: rgb(19, 18, 18);
+    color: rgb(238, 234, 234);
+    border: .5px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 1px 5px;
   }
   
   .modal.is-open {

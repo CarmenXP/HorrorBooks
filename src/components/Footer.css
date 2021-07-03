@@ -9,6 +9,7 @@ footer{
     margin-top: 10px;
     color: whitesmoke;
     font-size: 35px;
+    cursor: pointer;
     
 }
 .socialIcons svg{

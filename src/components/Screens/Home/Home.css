@@ -2,9 +2,20 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(42, 40, 40);
+    text-align: center;
+    color: violet;
+}
+.containerGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.cards{
+    width: 400px;
+    margin: 10px 15px;
 }
 
-.homeContainer h1{
-    color: violet;
-    text-align: center;
+.cards img{
+    height: 225px;
 }

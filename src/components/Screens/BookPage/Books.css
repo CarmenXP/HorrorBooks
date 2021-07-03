@@ -5,12 +5,16 @@
     background-color: rgb(42, 40, 40);
     justify-content: space-around;
 }
+.container h1 {
+    margin-top: .5rem  ;
+}
 .cardBook{
     border: 1px solid rgb(14, 78, 14);
     width: 240px;
     height: 435px;
     margin: 15px;
     background-color: rgb(29, 28, 28);
+    text-align: center;
 
 }
 img{
@@ -28,7 +32,8 @@ img{
     cursor: pointer;
 }
 .resume{
+    margin-top: 1rem;
     font: size 40px;
-    color: yellow;
+    color: rgb(8, 8, 8);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
