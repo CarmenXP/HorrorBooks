@@ -25,6 +25,7 @@ export default function Books() {
                     </button>
                 </div>    
                     <Modal closeModal={closeModal1} isOpen={isOpenModal1}>
+                        
                         <h1>El Horror de Dunwich</h1>
                         <h3 >H.P. Lovecraft</h3>
                         <p className="resume">"El horror de Dunwich, obra central de los Mitos de Cthulhu, 
@@ -33,6 +34,9 @@ export default function Books() {
                             El que susurra en la oscuridad y El color surgido del espacio, que muestran el dominio
                             de este autor del misterio y su evolución hacia la ciencia ficción."
                         </p>
+
+                        
+                        
                     </Modal> 
             <div className="cardBook">
                 <img src="https://www.hola.com/imagenes/estar-bien/20181030132154/libros-novela-negra-y-terror-noche-de-miedo/0-615-292/elhombredetiza-a.jpg" alt="hombreDeTiza"/>

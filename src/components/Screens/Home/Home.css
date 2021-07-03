@@ -1,0 +1,10 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 40, 40);
+}
+
+.homeContainer h1{
+    color: violet;
+    text-align: center;
+}

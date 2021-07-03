@@ -10,21 +10,36 @@ export default function NavBar() {
         <nav className="navBar">
             <div className="nav-container">
                 <NavLink to="/" className="nav-logo">
-                    ICONO
+                    <i className="fas fa-book-dead"></i>
                 </NavLink>
-                <ul className="nav-menu">
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <NavLink to="/session" className="nav-links">
+                        <NavLink 
+                            to="/session"   
+                            className="nav-links"
+                            activeClassName="active"
+                            onClick={handleClick}
+                        >
                             Iniciar sesión
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/books" className="nav-links">
+                        <NavLink 
+                            to="/books" 
+                            className="nav-links"
+                            activeClassName="active"
+                            onClick={handleClick}
+                        >
                             Libros
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/comments" className="nav-links">
+                        <NavLink 
+                            to="/comments" 
+                            className="nav-links"
+                            activeClassName="active"
+                            onClick={handleClick}
+                        >
                             Blog
                         </NavLink>
                     </li>
