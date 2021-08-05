@@ -1,4 +1,3 @@
-import { useState } from "react";
 import{useModal} from "../../Hooks/useModal";
 import Modal from "../../Modal";
 import "./Books.css";

@@ -8,7 +8,7 @@
     text-align: center;
     
 }
-form{
+.formContainer form{
     margin: 8rem 0;
     width: 450px;
     height: 75%;
@@ -20,10 +20,10 @@ form{
     border-radius: 8px;
    
 }
-form h2{
+.formContainer form h2{
     margin-top: 2rem;
 }
-form input{
+.formContainer form input{
     border: 1px solid rgb(219, 215, 215);
     padding: .75rem 0;
     width: 60%;
@@ -35,7 +35,7 @@ form input{
     
     
 }
-form button{
+.formContainer form button{
     margin: 2rem 0;
     width: 60%;
     padding: .5rem .5rem;

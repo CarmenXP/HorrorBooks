@@ -6,7 +6,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import "./Footer.css";
 
-export default function () {
+export default function Footer () {
     return (
         <footer>
             <div className="socialIcons">

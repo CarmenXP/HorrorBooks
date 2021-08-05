@@ -1,0 +1,39 @@
+.container-comment{
+    display: flex;
+    background-color: burlywood;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.comments{
+    background-color: cadetblue;
+}
+.box-comments{
+    background-color: darkcyan;
+    align-content: center;
+    
+}
+.container-comment form{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.comment{
+    
+    background-color: darkolivegreen;
+    width: 70%;
+    height: 50px;
+    margin: 15px 15px;
+    border:none;
+    border-radius: 15px;
+}
+.send-button{
+    background-color: darkseagreen;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px
+    
+}
